@@ -1,17 +1,16 @@
 package com.brian.interview;
 
-import com.brian.interview.Main;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class MainTest {
 
     Main main;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         main = new Main();
     }
