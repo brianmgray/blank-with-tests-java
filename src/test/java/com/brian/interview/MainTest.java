@@ -1,3 +1,6 @@
+package com.brian.interview;
+
+import com.brian.interview.Main;
 import org.junit.Before;
 import org.junit.Test;
 
